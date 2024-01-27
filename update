@@ -10,7 +10,7 @@ cd ../etc
 rm -rf mobile-mining 
 cd
 cd ../bin
-rm -rf add-ip edit-miner run-miner backup restore update up-grade
+rm -rf add-ip edit-miner run-miner backup restore up-grade
 cd
 cd CCMINER-SERVER
 chmod +x setupdate.sh
