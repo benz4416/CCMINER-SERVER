@@ -1,17 +1,17 @@
 #!/bin/bash
   
  cd
- rm -rf AUTORUN-CCMINER-X
- git clone https://github.com/pichetx/AUTORUN-CCMINER-X1.2
+ rm -rf CCMINER-SERVER
+ git clone https://github.com/saengx/CCMINER-GITHUB
  cd ../etc/mobile-mining/set-miner
- cp -r online.json offline.json /../root/AUTORUN-CCMINER-X1.2/mobile-mining/set-miner 
+ cp -r online.json offline.json /../root/CCMINER-GITHUB/mobile-mining/set-miner 
  cd
  cd ../etc
  rm -rf mobile-mining
  cd
  cd ../bin
- rm -rf add-ip edit-miner run-miner update up-grade
+ rm -rf add-ip edit-miner run-miner update backup restore
  cd
- cd AUTORUN-CCMINER-X1.2
+ cd CCMINER-GITHUB
  chmod +x setupdate.sh
  sh setupdate.sh
