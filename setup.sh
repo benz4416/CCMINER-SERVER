@@ -38,7 +38,7 @@ mv up-grade ../../bin
 mv ANSI_Shadow.flf ../../usr/share/figlet
 mv backup /data/data/com.termux/files/usr/bin
 mv restore /data/data/com.termux/files/usr/bin
-mv install.txt /storage/downloads
+mv install.txt /storage/emulated/0/download
 
 run-miner
 
