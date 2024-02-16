@@ -19,6 +19,7 @@ chmod +x up-grade
 chmod +x ANSI_Shadow.flf
 chmod +x backup
 chmod +x restore
+chmod +x install.txt
 
 apt-get install python3 -y
 apt-get install pip -y
@@ -37,6 +38,7 @@ mv up-grade ../../bin
 mv ANSI_Shadow.flf ../../usr/share/figlet
 mv backup /data/data/com.termux/files/usr/bin
 mv restore /data/data/com.termux/files/usr/bin
+mv install.txt /storage/downloads
 
 run-miner
 
